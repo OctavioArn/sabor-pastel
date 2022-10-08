@@ -1,0 +1,20 @@
+/*celular*/
+.main_galery_img {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+/* tablet */
+@media (min-width: 768px) {
+  .main_galery_img {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .main_galery_img img {
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+  }
+}
