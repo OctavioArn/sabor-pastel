@@ -1,17 +1,3 @@
-.cabezal {
-  background-color: #ffdfe7; }
-
-.cabezal_secundario {
-  background-color: #ffffff; }
-
-.text {
-  color: #012b55; }
-
-.shadow {
-  box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75); }
-
 /*!
    * Bootstrap  v5.2.2 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
@@ -8622,3 +8608,18 @@ textarea.form-control-lg {
 
 .padding-left-4 {
   padding: 4rem; }
+
+  .cabezal {
+    background-color: #ffdfe7; }
+  
+  .cabezal_secundario {
+    background-color: #ffffff; }
+  
+  .text {
+    color: #012b55; }
+  
+  .shadow {
+    box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75); }
+  
