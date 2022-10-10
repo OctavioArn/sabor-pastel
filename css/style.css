@@ -1,3 +1,17 @@
+.cabezal {
+  background-color: #ffdfe7; }
+
+.cabezal_secundario {
+  background-color: #ffffff; }
+
+.text {
+  color: #012b55; }
+
+.shadow {
+  box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75); }
+
 /*!
    * Bootstrap  v5.2.2 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
@@ -48,7 +62,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  --bs-font-sans-serif: sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -8417,7 +8431,6 @@ textarea.form-control-lg {
 .main_title {
   text-align: center;
   text-decoration: none;
-  color: #012b55;
   font-size: 25px;
   font-style: normal; }
 
@@ -8425,7 +8438,9 @@ textarea.form-control-lg {
   text-align: center;
   font-size: 20px;
   line-height: 1.6;
-  color: #012b55; }
+  font-style: normal;
+  background: #ffdfe7;
+  background: radial-gradient(circle, #ffdfe7 0%, white 100%); }
 
 .main_footer {
   display: flex;
@@ -8501,6 +8516,9 @@ textarea.form-control-lg {
       padding: 15px; } }
 
 /*celular*/
+.carousel-inner {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
 .main_principal {
   display: flex;
   align-items: center;
@@ -8592,3 +8610,15 @@ textarea.form-control-lg {
   height: 30%;
   border: 0;
   padding: 0; }
+
+.padding-left-1 {
+  padding: 1rem; }
+
+.padding-left-2 {
+  padding: 2rem; }
+
+.padding-left-3 {
+  padding: 3rem; }
+
+.padding-left-4 {
+  padding: 4rem; }

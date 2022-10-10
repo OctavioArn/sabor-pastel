@@ -1,0 +1,25 @@
+//map//
+$paleta: (
+  "principal": rgb(255, 223, 231),
+  "secundario": #ffffff,
+  "texto": #012b55,
+);
+
+//colores-y-brackgrounds (uso de mapa)//
+.cabezal {
+  background-color: map-get($map: $paleta, $key: principal);
+}
+.cabezal_secundario {
+  background-color: map-get($map: $paleta, $key: secundario);
+}
+.text {
+  color: map-get($map: $paleta, $key: texto);
+}
+
+
+//sombras//
+.shadow {
+  box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 14px -9px rgba(0, 0, 0, 0.75);
+}

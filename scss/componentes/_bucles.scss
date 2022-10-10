@@ -1,0 +1,4 @@
+@for $level from 1 to 5 {
+    .padding-left-#{$level}{
+        padding: 1rem * $level;} 
+}

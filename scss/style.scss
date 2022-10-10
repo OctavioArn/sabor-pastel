@@ -1,11 +1,16 @@
 // Include any default variable overrides here (though functions won't be available)
-$font-family-sans-serif: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-"Lucida Sans Unicode", Verdana, sans-serif;
+@import "./componentes/variables";
+
+$font-family-sans-serif: "sans-serif";
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+@import "./componentes/mixin";
 @import "./pages/commons";
 @import "./pages/index";
 @import "./pages/cursos";
 @import "./pages/galeria";
 @import "./pages/productos";
+@import "./componentes/bucles";
+

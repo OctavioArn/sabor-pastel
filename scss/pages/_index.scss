@@ -1,4 +1,7 @@
 /*celular*/
+.carousel-inner {
+  @include box-shadow(5);
+}
 .main_principal {
   display: flex;
   align-items: center;
@@ -22,6 +25,7 @@
   height: 100%;
   border: 0;
 }
+
 /* tablet */
 @media (min-width: 768px) {
   .about_us {
