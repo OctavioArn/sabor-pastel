@@ -8585,10 +8585,15 @@ textarea.form-control-lg {
     height: 25%; } }
 
 /*celular*/
-.main_galery_img {
+.main_galery {
   display: flex;
-  flex-direction: row;
-  text-align: center; }
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .main_galery_img {
+    display: flex;
+    flex-direction: row;
+    text-align: center; }
 
 /* tablet */
 @media (min-width: 768px) {

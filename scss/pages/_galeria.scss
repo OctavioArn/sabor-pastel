@@ -1,8 +1,14 @@
 /*celular*/
-.main_galery_img {
+.main_galery {
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  &_img {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
 }
 /* tablet */
 @media (min-width: 768px) {
