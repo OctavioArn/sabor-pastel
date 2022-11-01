@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text" aria-current="page" href="./index.html">Inicio</a>
+              <a class="nav-link active text cl" aria-current="page" href="./index.html">Inicio</a>
             </li>
               <li class="nav-item">
                 <a class="nav-link active text" href="./productos.html">Productos</a>
@@ -76,8 +76,8 @@
             Podrás elegir tortas recubiertas en fondant  o de buttercream.
           </p>
           <div class="our_cake_img">
-            <img src="./img/20220122_122910.jpg" alt="Tortas tematicas" class="our_cake_theme_img card-1"/>
-            <img src="./img/torta forrada5.jpg" alt="Tortas tematicas"  class="our_cake_theme_img card-2"/>
+            <img src="./img/20220122_122910.jpg" class="img-thumbnail" alt="torta">
+            <img src="./img/torta forrada5.jpg" class="img-thumbnail" alt="torta">
           </div>
         </section>
         <section class="main_title text">
@@ -86,24 +86,24 @@
             En una mesa dulce no puede faltar algunas de estas opciones que te vamos a mostrar.</p>
           <h3 class="main_title text">Cookies</h3>
             <div class="our_cake_img">
-              <img src="./img/cookies.jpg" alt="Cookies" />
-              <img src="./img/cookies 1.jpg" alt="Cookies" />
+              <img src="./img/cookies.jpg" class="img-thumbnail" alt="cookies">
+              <img src="./img/cookies 1.jpg" class="img-thumbnail" alt="cookies">
             </div>
             <h3 class="main_title text">Cupcakes</h3>
             <p class="our_cake_par text">
             <div class="our_cake_img">
-              <img src="./img/cupcakes.jpg" alt="Cupcake" />
-              <img src="./img/cupcakes2.jpg" alt="Cupcake" />
+              <img src="./img/cupcakes.jpg" class="img-thumbnail" alt="Cupcake">
+              <img src="./img/cupcakes2.jpg" class="img-thumbnail" alt="Cupcake">
             </div>
             <h3 class="main_title text">Paletas</h3>
             <div class="our_cake_img">
-              <img src="./img/paleras.jpg" alt="Paletas" />
-              <img src="./img/paletas3.jpg" alt="Paletas" />
+              <img src="./img/paleras.jpg" class="img-thumbnail" alt="Paletas">
+              <img src="./img/paletas3.jpg" class="img-thumbnail" alt="Paletas">
             </div>
             <h3 class="main_title text">Popcakes</h3>
             <div class="our_cake_img">
-              <img src="./img/popcake.jpg" alt="Popcake" />
-              <img src="./img/mini6.jpg" alt="Popcake" />
+              <img src="./img/popcake.jpg" class="img-thumbnail" alt="Popcake">
+              <img src="./img/mini6.jpg" class="img-thumbnail" alt="Popcake">
             </div>
           </div>
         </section>
@@ -113,18 +113,31 @@
           <p class="main_parrafo text">
             Cajitas dulces, tartas e increíbles sabores para hacer un hermoso presente.</p>
           <div class="our_cake_img">
-            <img src="./img/postres.jpg" alt="Postres" />
-            <img src="./img/postre2.jpg" alt="Postres" />
+            <img src="./img/postres.jpg" class="img-thumbnail" alt="Postres">
+            <img src="./img/postre2.jpg" class="img-thumbnail" alt="Postres">
           </div>
         </section>
       </div>
     </main>
     <!-- fin de productos -->
     <!-- datos de contacto -->
-    <footer class="main_footer">
-      <img class="main_footer_img" src="./img/logo-fondo-trans-horizontal.png" alt="Logo de la empresa" />
-      <img class="main_footer_img_redes" src="./img/facebook.png" alt="Facebook" />
-      <img class="main_footer_img_redes" src="./img/instagram.png" alt="Instagram" />
+    <footer class="main_footer container-fluid d-flex flex-wrap justify-content-center align-items-center py-3 my-8">
+      <div class="col-md-4 d-flex align-items-center">
+      <a href="#" class="m-0 text-muted text-decoration-none 1h-1">
+        <img src="./img/logo-fondo-trans-horizontal.png" alt="Logo de la empresa" width="180px" height="70px"/>
+      </a>
+      <span class="mb-md-1 text-muted resize">© 2022 Company, Inc</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/sabor.pastel/?hl=es" target="_blank">
+        <img width="28" height="28" class="icon-280 bi bi-instagram" src="./img/instagram.png" alt="Instagram"/>
+      </a>
+    </li>
+      <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/sabor.pastel1" target="_blank">
+        <img width="28" height="28" class="icon-280 bi bi-facebook" src="./img/facebook.png" alt="Facebook"/>
+      </a>
+      </li>
+    </ul >
     </footer>
     <!-- fin datos de contacto -->
         <!-- JavaScript Bundle with Popper -->
